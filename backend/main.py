@@ -9,7 +9,7 @@ sys.path.append(
     os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 )
 
-from expense_agent_free import (
+from expense_agent import (
     make_expense,
     policy_check,
     anomaly_detection,
